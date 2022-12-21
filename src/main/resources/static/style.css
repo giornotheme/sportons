@@ -1,0 +1,40 @@
+.container-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-solid-default{
+    border: black 1px solid;
+}
+
+
+.screen-center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.margin-default{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.padding-default{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
